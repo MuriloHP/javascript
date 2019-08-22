@@ -11,4 +11,11 @@ function calcula(){
     // Coloca objeto no vetor
     vet.push(objeto)
     }
+    //calcula a qtde
+    var estoque = 0
+    for(i=0;i<5;i++){
+         estoque = estoque + vet[i].qtde
+
+    }
+    alert("ESTOQUE:" + estoque)
 }
