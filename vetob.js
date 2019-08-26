@@ -19,3 +19,18 @@ function calcula(){
     }
     alert("ESTOQUE:" + estoque)
 }
+function calcula2(){
+    var vet = []
+    for(var i=0;i<3;i++){
+    var objeto = {}
+    //coloca os dados do objeto
+    objeto.salario = Number(prompt("Salario"))
+    objeto.sexo = prompt("informe sexo")
+    objeto.idade = Number(prompt("Informe idade"))
+    objeto.filhos = Number(prompt("informe a QTDE de Bacuris"))
+    //coloca objeto no veto
+    vet.push(objeto)
+    }
+    //calcula média
+
+}
